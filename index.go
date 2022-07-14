@@ -12,7 +12,7 @@ func main() {
 	http.HandleFunc("/a",handler1)
 	http.HandleFunc("/b",handler2)
 
-	http.ListenAndServe(":81",nil)
+	http.ListenAndServe(":70",nil)
 }
 
 func handler1 (w http.ResponseWriter,r *http.Request) {
